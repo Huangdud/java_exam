@@ -1,0 +1,5 @@
+.no-wrap-th th {
+    white-space: nowrap; /* 防止文本换行 */
+    overflow: hidden;    /* 溢出部分隐藏 */
+    text-overflow: ellipsis; /* 显示省略号 */
+}

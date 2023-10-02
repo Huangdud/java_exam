@@ -1,0 +1,427 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+/* ------------------------------------------------- Large Screen. 1200 ---------------------------------------------------*/
+@media (min-width: 1440px) and (max-width: 1800px) {
+    /* slider area */
+    .witr_containers {
+        width: 98% !important;
+    }
+    /* require area */
+    .require_inner {
+        padding: 80px 170px;
+    }
+
+}
+/* ------------------------------------------------- Large Screen. 1200 ---------------------------------------------------*/
+
+/* ------------------------------------------------- Large Screen. 1025 ---------------------------------------------------*/
+ @media (min-width: 1025px) and (max-width: 1660px) {
+    /* slider area */
+    .witr_containers {
+        width: 98% !important;
+    }
+    /* about are */
+    .about_cont {
+        padding: 0px;
+    }   
+}
+/* ------------------------------------------------- Large Screen. 1024 ---------------------------------------------------*/
+ @media (min-width: 1024px) and (max-width: 1600px) {
+   
+}
+/* ------------------------------------------------- Laptop Screen 1366 ---------------------------------------------------*/
+ @media (min-width: 1170px) and (max-width: 1366px) {
+     
+}
+/* ------------------------------------------------- Old Desktop :1365-1660 ---------------------------------------------------*/
+ @media (min-width: 1365px) and (max-width: 1660px) {
+    /* slider area */
+    .witr_ds_content {
+        height: 980px !important;
+    }
+    /* require area */
+    .require_inner {
+        padding: 80px 140px
+    }
+}
+/* ------------------------------------------------- Old Desktop :992 ---------------------------------------------------*/
+ @media (min-width: 992px) and (max-width: 1364px) {
+    /* section title */
+    .witr_section_title_inner h1,.witr_section_title_inner h3 {
+        font-size:38px
+    }
+    /* about area */
+    .about_area {
+        padding: 100px 0;
+    }
+    .about_cont {
+        padding: 0px 0px 0px ;
+    }
+    /* require area */
+    .require_inner {
+        padding: 80px 80px
+    }
+}
+@media (min-width: 1301px) and (max-width:1440px) {
+    /* slider area */
+    .witr_containers {
+        width: 82% !important;
+    }
+}
+@media (min-width: 992px) and (max-width:1300px) {
+    /* slider area */
+    .witr_containers {
+        width: 98% !important;
+    }
+}
+/* ------------------------------------------------- max width: 1024 ---------------------------------------------------*/
+@media (max-width: 1024px) {
+    .feature_area {
+        margin-top: 0;
+    }
+    .apply_heading h3 {
+        font-size: 80px;
+    }
+}
+/* ------------------------------------------------- Old Desktop :992 ---------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* section title */
+    .witr_text_widget_inner h1,.witr_text_widget_inner h2 {
+        font-size:30px!important;
+        padding: 0!important
+    }
+    .witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
+        width:67%
+    }
+    /* menu area */
+    .talim_menu > ul > li > a {
+        margin: 45px 8px 45px 0;
+        font-size: 14px;
+    }
+    /* slider area */
+    .witr_ds_content {
+        height: 840px !important;
+    }
+    /* about area */
+    .about_area {
+        padding: 100px 0;
+    }
+    .about_video_area {
+        margin-top: 0px;
+    }
+    /* success area */
+    .success_image_area {
+        transform: translateX(0px)
+    }
+    /* require area */
+    .require_inner {
+        padding: 80px 30px
+    }
+    .single_requirements.first {
+        margin-right: 20px;
+    }
+    .single_requirements.second {
+        margin-left: 20px;
+    }
+   
+    /* footer area */
+    .footer-bottom:before {
+        width: 100%;
+    }
+}
+
+/* ------------------------------------------------- Tablet Screen : 768 ---------------------------------------------------*/
+ @media (min-width: 768px) and (max-width: 991px) {
+    /* section title */
+    .witr_section_title_inner h1,.witr_section_title_inner h3 {
+        font-size:30px
+    }
+    .witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
+        width: 83%
+    }
+    /* slider area */
+    .witr_ds_content {
+        height: 790px !important;
+    }
+    .witr_containers {
+        width: 90% !important;
+    }
+    .text-right .witr_ds_content_inner h1, 
+    .text-right .witr_ds_content_inner h2,
+    .text-right .witr_ds_content_inner h3,
+    .text-right .witr_ds_content_inner p,
+    .text-left .witr_ds_content_inner h1, 
+    .text-left .witr_ds_content_inner h2, 
+    .text-left .witr_ds_content_inner h3, 
+    .text-left .witr_ds_content_inner p,
+    .text-center .witr_ds_content_inner h1,
+    .text-center .witr_ds_content_inner h2,
+    .text-center .witr_ds_content_inner h3,
+    .text-center .witr_ds_content_inner p {
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+        text-align:center !important;
+    }
+    .slider_btn {
+        text-align: center;
+    }
+}
+ @media (min-width: 10px) and (max-width: 991px){
+    /* mobile menu */
+    .mobile-menu{
+        display:block !important;
+    }
+        .mobile_logo_area{
+            display:block !important;
+    }
+        .talim-main-menu{
+            display:none !important;
+    }
+        .d_md_none{
+            display:none !important;
+    }
+    .search_popup_button, .tx_mmenu_together{
+        display: none;
+    }
+    /* about area */
+    .about_cont {
+        padding: 0px 0px 0px ;
+    }
+    .about_area {
+        padding: 100px 0;
+    }
+    .about_video_area {
+        margin-top: 0px;
+    }
+    /* counter area */
+    .witr_single_counter {
+        margin-bottom: 20px;
+    }
+    .counter2_area .witr_counter_number_inn {
+        display: flex;
+        flex-direction: column;
+    }
+    .counter2_area .wirt_new_iner {
+        margin-bottom: 20px;
+        width: 100%
+    }
+    .counterdowns p.cdowns:not(:last-child)::before, .counterdowns p.cdowns:not(:last-child)::after {
+        display: none
+    }
+    /* success area */
+    .success_image_area {
+        transform: translateX(0px);
+        margin-bottom: 20px;
+    }
+    /* testimonial area */
+    .testi_cont_area {
+        padding-left: 0;
+    }
+    .testi_left_image {
+        transform: translateX(0px);
+    }
+    /* apply area */
+    .single_apply {
+        flex-direction: column;
+    }
+    /* require area */
+    .require_inner {
+        padding: 80px 20px
+    }
+    .single_requirements.first {
+        margin-right: 0px;
+    }
+    .single_requirements.second {
+        margin-left: 0px;
+    }
+    /* case stydy details */
+    .csd h3 {
+        font-size: 22px
+    }
+    /* contact area */
+    .contact_form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .single_c_address {
+        flex-direction: column;
+    }
+    /* footer area */
+    .footer-bottom:before {
+        width: 100%;
+    }
+}
+/* ------------------------------------------------- Small Mobile : 320 ---------------------------------------------------*/
+ @media (max-width: 767px) {
+    /* btn  */
+    .witr_btn {
+        margin-top: 11px !important;
+        margin-bottom: 15px;
+        padding: 10px 26px;
+        margin-right: 0;
+    }
+    /* section title */
+    .witr_text_widget_inner h1,.witr_text_widget_inner h2 {
+        font-size:20px;
+        line-height: 36px
+    }
+    .about-content span,.witr_text_widget_inner p {
+        font-size: 16px
+    }
+    .witr_text_widget_inner h1,.witr_text_widget_inner h2 {
+        font-size: 23px
+    }
+    .witr_section_title_inner h1,.witr_section_title_inner h3 {
+        font-size: 21px;
+        line-height: 30px
+    }
+    .witr_section_title_inner h2 {
+        margin-bottom: 4px;
+        font-size: 15px
+    }
+    .title_in_area,.witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
+        width: 100%
+    }
+    .witr_section_title_inner p {
+        padding-top: 10px
+    }
+    .witr_section_title {
+        text-align: center
+    }
+    .witr_section_title .text-right {
+        text-align: center!important
+    }
+    .talim_button a {
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+    .talim_content h2 {
+        font-size: 22px!important;
+    }
+    /* slider area */
+    .witr_ds_content {
+        height: 670px !important;
+    }
+    .witr_containers {
+        width: 90% !important;
+    }
+    .text-right .witr_ds_content_inner h1, 
+    .text-right .witr_ds_content_inner h2,
+    .text-right .witr_ds_content_inner h3,
+    .text-right .witr_ds_content_inner p,
+    .text-left .witr_ds_content_inner h1, 
+    .text-left .witr_ds_content_inner h2, 
+    .text-left .witr_ds_content_inner h3, 
+    .text-left .witr_ds_content_inner p,
+    .text-center .witr_ds_content_inner h1,
+    .text-center .witr_ds_content_inner h2,
+    .text-center .witr_ds_content_inner h3,
+    .text-center .witr_ds_content_inner p {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    .witr_ds_content_inner p {
+        font-size: 20px!important;
+    }
+    .slider_btn {
+        text-align: center;
+    }
+    /* top menu */
+    .top-contact-section {
+        display: none;
+    }
+    .top-address p {
+        text-align: center;
+    }
+    .top-right-menu ul.social-icons {
+        justify-content: center;
+    }
+    /* about area */
+    .about_video_area {
+        margin-top: 50px;
+    }
+    .about2_cont {
+        margin-left: 20px
+    }
+    /*  progress bar area */
+    .wcu_left {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    /* success area */
+    .success_area .mr-50 {
+        margin-right: 0;
+        margin-top: 30px
+    }
+    /* faq area */
+    .faq_image.single_image {
+        margin-top: 50px;
+    }
+    /* student management area */
+    .student_management_area .witr_section_title_inner h3 {
+        font-size: 30px;
+    }
+    .accordion_area {
+        padding-top: 30px;
+    }
+    /* advance tab area */
+    .adv_tab_wrapper .nav-tabs .nav-link {
+        margin-right: 0;
+    }
+    .apply_heading h3, .student_management_area .witr_section_title_inner h3 {
+        font-size: 30px;
+    }
+    /* case stydy details */
+    .csd h3 {
+        font-size: 22px
+    }
+    /* team area */
+    .team_details_right h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    /* footer area */
+    .footer-middle .container {
+        max-width: 540px
+    }
+    .footer-middle {
+        text-align: center!important;
+    }
+    .footer_s_inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer_s_inner .footer-social-icon {
+        margin-right: 0;
+        font-size: 18px;
+    }
+    .copy-right-text p {
+        text-align: center;
+    }
+    .footer-menu ul {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+/* ------------------------------------------------- Large Mobile :480px. ---------------------------------------------------*/
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* section title */
+    .witr_section_title_inner h1,.witr_section_title_inner h2,.witr_section_title_inner h3 {
+        font-size:25px
+    }
+    .witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
+        width: 91%
+    }
+    .witr_section_title_inner.text-left.full p {
+        width: 100%
+    }
+    .top-contact-section {
+        display: block
+    }
+}
+
